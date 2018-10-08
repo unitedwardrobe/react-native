@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.authors = 'Facebook'
   spec.source = source
 
-  spec.module_name = 'yoga'
+  spec.module_name = 'ReactYoga'
   spec.requires_arc = false
   spec.compiler_flags = [
       '-fno-omit-frame-pointer',

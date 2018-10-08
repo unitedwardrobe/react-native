@@ -14,11 +14,7 @@
 #import <React/RCTLog.h>
 #import <React/RCTPointerEvents.h>
 #import <React/RCTTextDecorationLineType.h>
-#if __has_include(<ReactYoga/Yoga.h>)
 #import <ReactYoga/Yoga.h>
-#else
-#import <yoga/Yoga.h>
-#endif
 
 /**
  * This class provides a collection of conversion functions for mapping

@@ -6,13 +6,8 @@
  */
 
 #include <fb/fbjni.h>
-#if __has_include(<ReactYoga/Yoga.h>)
 #include <ReactYoga/YGNode.h>
 #include <ReactYoga/Yoga.h>
-#else
-#include <yoga/YGNode.h>
-#include <yoga/Yoga.h>
-#endif
 #include <iostream>
 
 using namespace facebook::jni;

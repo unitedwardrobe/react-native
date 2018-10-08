@@ -7,11 +7,7 @@
 
 #import "RCTShadowView+Layout.h"
 
-#if __has_include(<ReactYoga/Yoga.h>)
 #import <ReactYoga/Yoga.h>
-#else
-#import <yoga/Yoga.h>
-#endif
 
 #import "RCTAssert.h"
 
